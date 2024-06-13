@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Table to Text Converter</title>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<style>
+  body {
+    background-image: url('/BDimg1.avif');
+  }
+  </style>
+<body>
+
+<table id="myTable">
+  <thead>
+    <tr>
+      <th>Header 1</th>
+      <th>Header 2</th>
+      <th>Header 3</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Data 1</td>
+      <td>Data 2</td>
+      <td>Data 3</td>
+    </tr>
+    <tr>
+      <td>Data 4</td>
+      <td>Data 5</td>
+      <td>Data 6</td>
+    </tr>
+  </tbody>
+</table>
+
+<button id="convertBtn">Convert to Text</button>
+
+<script>
+/*$(document).ready(function(){
+  $('#convertBtn').click(function(){
+  debugger
+    var text = '';
+    $('#myTable tr').each(function(){
+      $('td', this).each(function(){
+        text += $(this).text() + '\t'; // separate cells with tab
+      });
+      text += '\n'; // new line for each row
+    });
+    console.log(text); // you can replace this with any other action you want to do with the text
+    // For example, you can display the text in a textarea or alert it.
+    alert(text);
+  });
+});*/
+
+</script>
+
+</body>
+</html>
